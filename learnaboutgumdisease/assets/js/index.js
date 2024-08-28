@@ -410,7 +410,7 @@ for (let i = 0; i < numberOfCheckboxs; i++) {
                                         </div>`;
 
                     quizFooter.classList.add("complete");
-                    quizFooter.innerHTML = `<a href="./#quiz" class="quiz-cta complete">Start Over</a>`;
+                    quizFooter.innerHTML = `<a href="./index.html#quiz" class="quiz-cta complete">Start Over</a>`;
                     // setTimeout(() =>  {
                     //     quizFooter.innerHTML = `<a href="./index.html" class="quiz-cta complete">Start Over</a>`
                     // }, 100);
