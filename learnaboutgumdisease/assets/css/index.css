@@ -1,0 +1,45 @@
+
+/* Global popup overlay start */
+.form__overlay,
+.method__overlay.overlay.show,
+.leaving__overlay.overlay.show{
+    width: 100vw; 
+    height: 100vh; 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    background-color: #7f7f7fbb;
+    overflow: auto;
+    z-index: 5;
+}
+
+.form__overlay .popup ,
+.method__overlay.overlay.show .popup,
+.leaving__overlay.overlay.show .popup{
+    width: 1320px;
+    margin: 30px 0;
+    padding: 30px;
+    background-color: var(--white);
+}
+
+.overlay.show .popup .leaving__container{
+    height: fit-content;
+    padding: 65px 70px;
+    border: 3px solid var(--orange);
+    border-radius: 10px;
+    /* outline: 2px solid #7f7f7f55; */
+    box-shadow: 0px 0px 10px #7f7f7f99;
+    position: relative;
+}
+
+.form__overlay .popup .form__container .close-btn,
+.method__overlay.overlay.show .method__container .close-btn,
+.leaving__overlay.overlay.show .leaving__container .close-btn{
+    display: block;
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    cursor: pointer;
+}
+/* Global popup overlay end */
+
